@@ -1,0 +1,9 @@
+pywebview==4.2
+flask==3.0.3
+transformers==4.41.1
+sentence-transformers==2.7.0
+llama-cpp-python==0.2.74
+matplotlib==3.9.0
+pillow==10.3.0
+torch==2.3.0
+uvicorn==0.29.0ac

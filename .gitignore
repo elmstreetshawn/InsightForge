@@ -1,0 +1,45 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Model files and checkpoints
+/models/
+*.gguf
+*.pt
+*.bin
+
+# Logs and runtime files
+*.log
+*.pid
+
+# PyInstaller or build outputs
+dist/
+build/
+*.spec
+
+# Node or web assets
+node_modules/
+*.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# 🔒 Exclude GUI for open-source split
+/frontend/
+gui.py
+InsightForge.app/
+*.exe
